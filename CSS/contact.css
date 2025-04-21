@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Courgette&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Aclonica", sans-serif;
+  background-color: white;
+  font-weight: 400;
+}
+
+.navbar{
+    background-color: #94cbff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+}
+.logo{
+    height: 60px;
+}
+.nav-text{
+    color: #2f0468;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.nav-text:hover{
+    color: #94cbff;
+    background-color: #2f0468;
+    border-radius: 30px;
+    transition: 0.5s;
+}    
+.link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-container {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid #2f0468;
+}    
+
+.contact-container:hover {
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 3px black;
+}
+
+.contact-img {
+  flex: 1 1 50%;
+  box-sizing: border-box;
+  padding: 40px 40px;
+}
+
+.dog-img {
+  width: 60%;
+  border-radius: 8px;
+  margin-left: 100px;
+}
+
+.contact-form {
+  flex: 1 1 50%;
+  box-sizing: border-box;
+  padding: 40px 0 0 40px;
+  margin-top: 100px;
+}
+
+.info {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid #2f0468;
+}
+
+.info:hover {
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 3px black;
+    overflow: hidden;
+}
+
+.basic {
+  flex: 1 1 50%;
+  box-sizing: border-box;
+  padding: 40px 40px;
+  text-align: center;
+}
+
+.maps {
+  flex: 1 1 50%;
+  box-sizing: border-box;
+  padding: 40px 40px;
+}
+h1{
+     text-align: center; 
+}
+h1:hover{
+    transform: rotate(360deg);
+    transition: all 0.8s ease;
+}
+.Contact{
+    display: grid;
+    row-gap: 1rem;
+}
+
+.Contact textarea{
+    resize: none;
+    height: 200px;
+}
+
+.d {
+    background-color: #94cbff;
+    color: #2f0468;
+    border: none;
+    border-radius: 30px;
+    padding: 20px;
+    font-family: "Aclonica", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    width: 120px;
+}
+.d:hover{
+    text-align: center;
+    background-color: #2f0468;
+    border-radius: 25px;
+    color: #94cbff;
+}
+.int{
+    border: 1.6px solid black;
+    height: 30px;
+    padding: 5px 0px 5px 20px;
+    margin-left: 5px;
+    width: 400px;
+    border-radius: 7px;
+}
+.int1{
+    border: 1.6px solid black;
+    padding: 20px 0px 5px 20px;
+    margin-left: 5px;
+    width: 400px;
+    border-radius: 7px;
+    height: 100px;
+}
+
+
+.footer{
+    margin-top: 30px;
+    background-color: #94cbff;
+    padding: 20px;
+}
+.footer-container{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.card{
+    display: block;
+}
+.footer-main-logo{
+    width: 250px;
+}
+.footer-logo-section{
+    width: 250px;
+    color: #2f0468;
+    margin-top: 15px;
+}
+.footer-contact{
+    width: 300px;
+}
+.quick-links-contain{
+    text-decoration: none;
+    color: #2f0468;
+    text-transform: capitalize;
+    transition: all 0.5s ease;
+}
+
+.quick-links  a:hover{
+    color: #2f0468;
+    padding-left: 8px;
+}
+
+.footer-social{
+    text-align: center;
+}
+
+.social-text{
+    font-family: "Aclonica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.contact-info{
+    color: #2f0468;
+    display: flex;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+}
+.contact-info:hover{
+    padding-left: 8px;
+}
+.contact-text {
+    color: #2f0468;
+    text-decoration: none;
+    transition: all 0.5s ease;
+    text-decoration: none;
+}
+.contact-text:hover{
+    padding-left: 12px;
+}
+.contact-text1{
+    color: #2f0468;
+}
+h4{
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 599px)
+{
+    .hamburger{
+        visibility: visible;
+        height: 40px;
+    }
+    .nav-text{
+        display: none;
+    }
+    .logo{
+        height: 50px;
+    }
+    .footer-container{
+        flex-wrap: wrap;
+    }
+    .cart{
+        margin-top: 25px;
+        margin-right: 150px;
+    }
+    .footer-main-logo{
+        width: 350px;
+    }
+    .footer-container-info{
+        margin-left: 40px;
+    }
+    .footer-social{
+        text-align: start;
+    }
+    .contact-container{
+        width: 93%;
+
+    }
+    .contact-form {
+        margin-top: 0px;
+        width: 60%;
+    }
+    .dog-img{
+        width: 80%;
+        margin-left: 30px;
+    }
+    .d{
+        padding: 15px;
+        font-size: 15px;
+        width: 90px;
+    }
+    .int, .int1{
+        height: 20px;
+        width: 300px;
+    }
+    iframe{
+        width: 100%;
+    }
+   
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px){
+    .hamburger{
+        visibility: visible;
+        height: 40px;
+    }
+    .nav-text{
+        display: none;
+    }
+    .logo{
+        height: 50px;
+    }
+    .footer-container{
+        flex-wrap: wrap;
+    }
+    .cart{
+        margin-top: 25px;
+        margin-right: 150px;
+    }
+    .footer-main-logo{
+        width: 350px;
+    }
+    .footer-container-info{
+        margin-left: 40px;
+    }
+    .footer-social{
+        text-align: start;
+    }
+    .contact-container{
+        width: 93%;
+    }
+    .contact-form {
+        margin-top: 0px;
+        width: 60%;
+    }
+    .dog-img{
+        width: 80%;
+        margin-left: 10%;
+        
+    }
+    .d{
+        padding: 15px;
+        font-size: 18px;
+        width: 120px;
+    }
+    .int, .int1{
+        height: 25px;
+        width: 400px;
+    }
+    iframe{
+        width: 100%;
+    }
+
+}
+@media screen and (min-width: 769px) and (max-width: 992px){
+    .hamburger{
+        display: none;
+    }
+    .logo{
+        height: 60px;
+    }
+    .nav-text{
+        font-size: 17px;
+        padding: 15px 13px;
+        margin-left: 0;
+    }
+    .head{
+        font-size: 15px;
+        margin: 10px;
+    }
+    .cart{
+        margin-top: 25px;
+        margin-right: 150px;
+    }
+    .footer-container{
+        flex-wrap: wrap;
+    }
+    .cart{
+        margin-top: 25px;
+        margin-right: 40px;
+        width: 40%;
+    }
+    .footer-main-logo{
+        width: 300px;
+    }
+    .footer-container-info{
+        margin-left: 40px;
+    }
+    .footer-social{
+        text-align: start;
+    }
+    .dog-img{
+        width: 500px;
+        margin-left: 100px;
+    }
+    .contact-form{
+        margin-left: 100px;
+        margin-top: 0;
+    }
+    .int, .int1{
+        height: 25px;
+        width: 500px;
+    }
+    iframe{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 992px){
+    .hamburger{
+        display: none;
+    }
+}

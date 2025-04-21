@@ -1,0 +1,483 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Courgette&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Aclonica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.navbar{
+    background-color: #94cbff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+}
+.logo{
+    height: 60px;
+}
+.nav-text{
+    color: #2f0468;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.nav-text:hover{
+    color: #94cbff;
+    background-color: #2f0468;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head{
+    display: flex;
+    align-items: center;
+    margin: 10px 20px;
+}
+.hamburger{
+    height: 50px;
+}
+.tagline{
+    color: #2f0468;
+    width: 300px;
+}
+.head-left{
+    padding: 20px;
+}
+.bttn{
+    background-color: #2f0468;
+    color: #94cbff;
+    border: none;
+    border-radius: 30px;
+    padding: 20px;
+    font-family: "Aclonica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+.section-tagline{
+    color: #2f0468;
+    text-align: center;
+    margin-top: 60px;
+    font-size: 35px;
+}
+.section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+}
+.section-icon{
+    height: 100px;
+}
+.section-card{
+    border: 2px solid #2f0468;
+    width: 150px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 50%;
+}
+.section-card:hover{
+    box-shadow: 0px 0px 20px 3px black;
+    transition: 0.5s;
+}
+.main-banner{
+    margin-top: 60px;
+    padding: 20px;
+    background-color: #94cbff;
+}
+.banner{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.banner-head{
+    text-align: center;
+    font-size: 35px;
+    color: #2f0468;
+}
+.banner-child{
+    height: 400px;
+    width: 350px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 2px black;
+    background-color: #ffff;
+}
+.banner-img{
+    height: 100px;
+    margin-left: 120px;
+}
+.banner-containts1{
+    text-align: center;
+    color: #2f0468;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.banner-about{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 15px;
+}
+.learn-more-btn {
+    background-color: #2f0468;
+    margin: 30px 110px;
+    padding: 10px 20px;
+    color: #94cbff;
+    font-weight: bold;
+    text-decoration: none;
+    border:solid 2px #2f0468;
+    border-radius: 15px;
+    font-family: "Aclonica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.learn-more-btn:hover {
+    background-color: #94cbff;
+    color: #2f0468;
+    transition: 0.3s ease;
+}
+.pet-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+.pets-head{
+    text-align: center;
+    font-size: 25px;
+    color: #2f0468;
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+.cat-info{
+    font-size: 13px;
+}
+.home-dog{
+    text-decoration: none;
+
+}
+.home-dog:hover{
+    color: #94cbff;
+}
+
+
+
+
+
+.footer{
+    margin-top: 30px;
+    background-color: #94cbff;
+    padding: 20px;
+}
+.footer-container{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.card{
+    display: block;
+}
+.footer-main-logo{
+    width: 250px;
+}
+.footer-logo-section{
+    width: 250px;
+    color: #2f0468;
+    margin-top: 15px;
+}
+.footer-contact{
+    width: 300px;
+}
+.quick-links-contain{
+    text-decoration: none;
+    color: #2f0468;
+    text-transform: capitalize;
+    transition: all 0.5s ease;
+}
+
+.quick-links  a:hover{
+    color: #2f0468;
+    padding-left: 8px;
+}
+
+.footer-social{
+    text-align: center;
+}
+
+.social-text{
+    font-family: "Aclonica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.contact-info{
+    color: #2f0468;
+    display: flex;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+}
+.contact-info:hover{
+    padding-left: 8px;
+}
+.contact-text {
+    color: #2f0468;
+    text-decoration: none;
+    transition: all 0.5s ease;
+    text-decoration: none;
+}
+.contact-text:hover{
+    padding-left: 12px;
+}
+.contact-text1{
+    color: #2f0468;
+}
+h4{
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 599px)
+{
+    .hamburger{
+        visibility: visible;
+        height: 40px;
+    }
+    .nav-text{
+        display: none;
+    }
+    .logo{
+        height: 50px;
+    }
+    .head{
+        flex-wrap: wrap;
+        font-size: 12px;
+        margin: 8px 0px;
+    }
+    .head-img{
+        height: 300px;
+    }
+    .head-left{
+        padding: 5px;
+    }
+    .head-right{
+        margin-left: 100px;
+    }
+    .bttn{
+        padding: 13px;
+        font-size: 12px;
+    }
+    .pet-row{
+        flex-wrap: wrap;
+        margin: 2px 30px;
+    }
+    .pets-head{
+        font-size: 22px;
+    }
+    .footer-container{
+        flex-wrap: wrap;
+    }
+    .cart{
+        margin-top: 25px;
+        margin-right: 150px;
+    }
+    .footer-main-logo{
+        width: 350px;
+    }
+    .footer-container-info{
+        margin-left: 40px;
+    }
+    .footer-social{
+        text-align: start;
+    }
+    .section{
+        flex-wrap: wrap;
+    }
+    .section-tagline, .banner-head{
+        font-size: 25px;
+    }
+    .section-icon{
+        height: 100px;
+    }
+    .section-card{
+        margin: 10px 30px;
+        flex-wrap: wrap;
+        width: 150px;
+        padding: 20px;
+    }
+    .banner{
+        flex-wrap: wrap;
+    }
+    .banner-child{
+        margin-top: 40px;
+    }
+
+}
+@media screen and (min-width: 600px) and (max-width: 768px){
+    .hamburger{
+        visibility: visible;
+        height: 40px;
+    }
+    .nav-text{
+        display: none;
+    }
+    .logo{
+        height: 50px;
+    }
+    .head{
+        font-size: 14px;
+        margin: 8px 0px;
+    }
+    .head-img{
+        height: 280px;
+    }
+    .head-left{
+        padding: 3px;
+    }
+    .bttn{
+        padding: 15px;
+        font-size: 13px;
+    }
+    .pet-row{
+        flex-wrap: wrap;
+        margin: 2px 30px;
+    }
+    .pets-head{
+        font-size: 22px;
+    }
+    .container{
+        margin: 20px 40px;
+    }
+    .footer-container{
+        flex-wrap: wrap;
+    }
+    .cart{
+        margin-top: 15px;
+        margin-right: 40px;
+        width: 90%;
+    }
+    .footer-main-logo{
+        width: 350px;
+    }
+    .footer-container-info{
+        margin-left: 40px;
+    }
+    .footer-social{
+        text-align: start;
+    }
+    .section{
+        flex-wrap: wrap;
+    }
+    .section-tagline, .banner-head{
+        font-size: 25px;
+    }
+    .section-icon{
+        height: 100px;
+    }
+    .section-card{
+        margin: 10px 30px;
+        flex-wrap: wrap;
+        width: 150px;
+        padding: 20px;
+    }
+    .banner{
+        flex-wrap: wrap;
+    }
+    .banner-child{
+        margin-top: 40px;
+    }
+
+}
+@media screen and (min-width: 769px) and (max-width: 992px){
+    .hamburger{
+        display: none;
+    }
+    .logo{
+        height: 60px;
+    }
+    .nav-text{
+        font-size: 17px;
+        padding: 15px 13px;
+        margin-left: 0;
+    }
+    .head{
+        font-size: 15px;
+        margin: 10px;
+    }
+    .head-img{
+        height: 350px;
+    }  
+    .bttn{
+        padding: 17px;
+        font-size: 14px;
+    }
+    .pet-row{
+        flex-wrap: wrap;
+        margin: 0px;
+    }
+    .pets-head{
+        font-size: 28px;
+    }
+    .container{
+        margin: 20px 40px;
+    }
+    .footer-container{
+        flex-wrap: wrap;
+    }
+    .cart{
+        margin-top: 25px;
+        margin-right: 40px;
+        width: 40%;
+    }
+    .footer-main-logo{
+        width: 300px;
+    }
+    .footer-container-info{
+        margin-left: 40px;
+    }
+    .footer-social{
+        text-align: start;
+    }
+    .section{
+        flex-wrap: wrap;
+    }
+    .section-tagline, .banner-head{
+        font-size: 25px;
+    }
+    .section-icon{
+        height: 100px;
+    }
+    .section-card{
+        flex-wrap: wrap;
+        width: 150px;
+        padding: 20px;
+    }
+    .banner{
+        flex-wrap: wrap;
+    }
+    .banner-child{
+        margin: 20px 30px;
+        width: 60%;
+        text-align: center;
+    }
+    .banner-img{
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+}
+@media screen and (min-width: 992px){
+    .hamburger{
+        display: none;
+    }
+}

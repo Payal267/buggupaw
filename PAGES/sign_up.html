@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="../css/sign_up.css">
+</head>
+<body>
+    <div class="card">
+        <div class="heading">
+            <h1>Sign Up</h1>
+            <img src="../img/cat-cartoon.png" height="130px">
+        </div>
+        <form>
+            <div class="main-section">
+                <label for="name" class="label section">Name:</label><br>
+                <input type="text" id="fname" placeholder="First name" class="text section" required><br>
+                <input type="text" id="lname" placeholder="Last name" class="text section"><br>
+            </div>
+            <div class="main-section">
+                <label for="email" class="label section">Email:</label>
+                <input type="email" id="email" placeholder="eg.abc@gmail.com" class="text section" required>
+            </div>
+            <div class="main-section">
+                <label for="phone" class="label section">Phone no.:</label>
+                <input type="number" id="phone" class="text section" placeholder="phone">
+            </div>
+            <div class="main-section">
+                <label for="country" class="label section">Select your country:</label>
+                <select id="country" class="text section">
+                    <option>India</option>
+                    <option>United States</option>
+                    <option>Mexico</option>
+                    <option>Canada</option>
+                    <option>Japan</option>
+                    <option>United Kingdom</option>
+                    <option>France</option>
+                    <option>Russia</option>
+                </select>
+                <input type="text" id="state" class="text section" placeholder="State">
+                <input type="number" id="code" class="text section" placeholder="Postal code">
+            </div>
+            <div class="main-section">
+                <label for="pet" class="label section">Which pet do you like the most:</label><br>
+                <div class="radio-btn">
+                    <input type="radio" name="select" id="dog">
+                    <label for="dog">Dog<i class="fa-solid fa-dog icon" style="color: #2f0468;"></i></label>
+
+                    <input type="radio" name="select" id="cat">
+                    <label for="cat" >Cat<i class="fa-solid fa-cat icon" style="color: #2f0468;"></i></label>
+
+                </div>    
+            </div>
+            <div class="main-section">
+                <label for="id" class="label section">Create your PawPlacement ID:</label>
+                <input type="text" id="id" class="text section" required>
+            </div>
+            <div class="main-section">
+                <label for="pass" class="label section">Create a new password</label>
+                <input type="password" id="pass" placeholder="Password" class="text section" required>
+            </div>
+            <div>
+                <input type="password" id="cpass" placeholder="Confirm password" class="text section" required>
+            </div>
+            <div class="terms">
+                <input type="checkbox" id="terms" required>
+                <label for="terms" >I've agreed to the privacy policy and terms & conditions of PawPlacement.</label>
+            </div>
+            <div class="account">
+                <span >Already have an account ?</span>
+                <a href="./login.html" class="log">Login here</a>
+            </div>
+            <br><br>
+            <div class="signup-btn">
+                <button class="sign-btn"> Sign up </button>
+            </div>
+            <p class="or">Or Continue with</p>
+            <div>
+                <div>
+                    <a href="https://www.google.com/" target="_blank">
+                    <i class="fa-brands fa-google btn" style="color: #94cbff;"></i></a>
+                </div>
+                <div>
+                    <a href="https://www.facebook.com/" target="_blank">
+                    <i class="fa-brands fa-facebook btn" style="color: #94cbff;"></i></a>
+                </div>
+            </div>
+        </form>
+
+    </div>
+    <script src="https://kit.fontawesome.com/38442ccd2f.js" crossorigin="anonymous"></script>
+</body>
+</html>
+    

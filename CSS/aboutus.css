@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Courgette&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Aclonica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+.tagline h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.head-para {
+    margin-top: 20px;
+}
+
+.section {
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section p{
+    text-align: center;
+    margin: 0px 20px;
+}
+
+
+.section-tagline {
+    color: #2f0468;
+}
+
+.team {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 15px 0px;
+    margin: 15px 0px;
+}
+
+.team-member {
+    width: 270px;
+    height: auto;
+    border-radius: 25px; 
+    box-shadow: 0px 0px 8px 0.5px black;
+    padding: 1px;
+    border: solid 1px black;
+    text-align: center;
+    overflow: hidden;
+    margin-top:40px
+}
+.member-name{
+    font-size: 30px;
+
+}
+.member-img {
+    width: 100%;
+    border-radius:25px;
+    min-height: max-content;
+    
+    
+}
+
+.social-icon{
+    margin: 5px 4px;
+}
+.member-footer{
+    justify-content: center;
+}
+
+.team-member:hover{
+    transition: 0.3s ease;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0.5px black;
+
+}
+
+.social-icon:hover{
+    transform: translateY(-5px);
+}
+
+.div-video{
+    width: 100%;
+}
+
+
+
+
+.gallery{
+    background-color: white;
+}
+
+.gallery-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.gallery-image{
+    width: 60vh;
+    margin: 10px 10px;
+
+}
+
+.owner-img{
+    width: 100%;
+}
+
+
+.gallery-image:hover{
+    transform: scale(1.01);
+    box-shadow: 0px 0px 0.5px 0.5px black;
+}
